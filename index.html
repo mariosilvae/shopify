@@ -3,36 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/style.css">
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <img src="/" alt="Logo">
-    <ul>
-      <li>Task</li>
-      <li>How it works</li>
-      <li>Pricing</li>
-    </ul>
-    <button>Log in</button>
-    <button>Sing up</button>
+  <header class="Header">
+    <div class="Header__logo">
+      <img src="/" alt="Logo">
+    </div>
+
+    <div class="Header__nav">
+      <nav>
+        <ul>
+          <li><a href="#">Task</a></li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="Header__button">
+      <button class="Header__button-logIn">Log in</button>
+      <button class="Header__button-singUp">Sing up</button>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h1>Unlimited small <br> Shopify Task</h1>
-      <p>Smarten up your whole shopping experience</p>
-      <button>Open a free account</button>
-      <p>or <a href="">browse the task catalog</a></p>
-      <i></i>
-      <p><span>26.518 tasks</span> handled by our <br> Experts with <span>99.2%</span> 5 stars review</p>
+  <main class="wrapper">
+    <section class="main__container wrapper-one">
+      <div class="main__container-description">
+        <h1>Unlimited small <br> Shopify task</h1>
+        <p>Smarten up your whole shopping experience <br></p>
+        <button>Open a free account</button>
+        <p>or <a href="#">browse the task catalog</a></p>
+      </div>
+
+      <div class="main__container-stars">
+        <img class="starIcon" src="https://img.icons8.com/fluent/48/000000/star.png"/>
+        <img class="starIcon" src="https://img.icons8.com/fluent/48/000000/star.png"/>
+        <img class="starIcon" src="https://img.icons8.com/fluent/48/000000/star.png"/>
+        <img class="starIcon" src="https://img.icons8.com/fluent/48/000000/star.png"/>
+        <img class="starIcon" src="https://img.icons8.com/fluent/48/000000/star.png"/>
+      </div>
+
+      <div class="main__container-reviews">
+        <p><span>26.518 tasks</span> handled by our <br> Experts with <span>99.2%</span> 5-star reviews</p>
+      </div>
     </section>
-    <section>
+    <section class="wraper-two">
       <img src="/" alt="image">
     </section>
   </main>
 
   <footer>
-    <i></i>
+
   </footer>
   
 </body>
