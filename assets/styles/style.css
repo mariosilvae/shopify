@@ -96,4 +96,11 @@ body {
   font-weight: bold;
 }
 
+.main__image svg {
+  width: 500px;
+  height: auto;
+  margin: 20px 10px;
+  
+}
+
 
